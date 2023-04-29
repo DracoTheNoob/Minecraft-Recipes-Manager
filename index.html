@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="index.css">
+    <script src="items.js" defer></script>
+    <script src="index.js" defer></script>
+    <title>Minecraft Recipes Manager</title>
+</head>
+<body>
+    <header>
+        <p>Minecraft Recipes Manager</p>
+        <div>
+            <button onclick="language('eng')"> <img src="img/eng.svg" alt="UK flag"> </button>
+            <button onclick="language('fra')"> <img src="img/fra.svg" alt="FR flag"> </button>
+        </div>
+    </header>
+    <main>
+        <section>
+            <div class="title">
+                <p>Search</p>
+            </div>
+            <div class="search">
+                <input autocomplete="off" type="text" id="searchbar" placeholder="Item..." oninput="search()">
+            </div>
+            <ul id="searchlist">
+                
+            </ul>
+        </section>
+        <section>
+            <div class="title">
+                <p>Items</p>
+            </div>
+            <ul id="itemslist">
+                
+            </ul>
+        </section>
+        <section>
+            <div class="title">
+                <p>Ressources</p>
+            </div>
+            <ul id="resourceslist">
+                
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p>MINECRAFT : © 2023 Microsoft. All right reserved.</p>
+        <p>This website was created by DracoTheNoob, no affiliation with Mojang Studios or Microsoft.</p>
+    </footer>
+</body>
+</html>
